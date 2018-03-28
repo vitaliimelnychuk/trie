@@ -1,0 +1,36 @@
+{
+  "name": "trie",
+  "version": "1.0.0",
+  "description": "Base trie realization with array sorting",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "nyc": "^11.6.0",
+    "mocha": "5.0.1",
+    "sinon": "4.3.0",
+    "spy": "1.0.0",
+    "chai": "^4.1.2",
+    "eslint": "^4.19.1",
+    "husky": "^0.14.3",
+    "node-utils": "git+https://github.com/melnychukvitaliy/node-utils.git"
+  },
+  "scripts": {
+    "test": "./node_modules/.bin/mocha --recursive --reporter spec",
+    "coverage": "./node_modules/.bin/nyc --reporter=html --reporter=text ./node_modules/.bin/mocha --recursive",
+    "eslint": "./node_modules/.bin/eslint ./src ./test",
+    "precommit": "npm test && npm run eslint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/melnychukvitaliy/trie.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/melnychukvitaliy/trie/issues"
+  },
+  "homepage": "https://github.com/melnychukvitaliy/trie#readme"
+}
