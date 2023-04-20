@@ -8,7 +8,7 @@
   },
   "dependencies": {},
   "devDependencies": {
-    "nyc": "^11.6.0",
+    "nyc": "^11.9.0",
     "mocha": "5.0.1",
     "sinon": "4.3.0",
     "spy": "1.0.0",
